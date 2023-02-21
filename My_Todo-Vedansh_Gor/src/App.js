@@ -6,8 +6,8 @@ import Button from "@mui/material/Button";
 import "./App.css";
 // import data from './Utils/Dataset'
 import TodoCard from "./Component/TodoCard/TodoCard";
-import Description from "./Component/TodoCard/Description";
-import Another_Dis from "./Component/TodoCard/Another_Dis";
+// import Description from "./Component/TodoCard/Description";
+// import Another_Dis from "./Component/TodoCard/Another_Dis";
 
 function App() {
   const [toDos, setToDos] = useState([]); // need to ste array so that push funtion can work

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function TodoForm({ addTodo }) {
   const handleDescriptionChange = (e) => {
-    handleDescriptionChan(e.target.value);
+    handleDescriptionChange(e.target.value);
   };
 
   return (
