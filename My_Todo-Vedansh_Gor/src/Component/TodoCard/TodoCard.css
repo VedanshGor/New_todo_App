@@ -1,0 +1,61 @@
+.card-wrapper {
+  display: inline-block;
+  margin: 10px;
+}
+
+.card-wrapper .MuiCard-root {
+  width: 345px;
+  height: 150px;
+}
+
+.card-wrapper .MuiCardContent-root {
+  height: 80px;
+}
+
+.card-wrapper .MuiTypography-h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-wrapper .MuiCardActions-root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-wrapper .MuiButton-root {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.card-wrapper .MuiButton-root.task {
+  background-color: #4CAF50;
+}
+
+.card-wrapper .MuiButton-root:hover {
+  background-color: #555;
+}
+
+.card-wrapper .MuiFormControl-root {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card-wrapper .MuiFormControlLabel-root {
+  margin-right: 0;
+}
+
+.card-wrapper .MuiRadio-colorSecondary.Mui-checked {
+  color: #fff;
+}
+
+.card-wrapper .MuiRadio-colorSecondary.Mui-checked:hover {
+  background-color: #555;
+}
+
+.card-wrapper .MuiPopover-paper {
+  padding: 10px;
+  width: 200px;
+}
